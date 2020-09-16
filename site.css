@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+html {
+    background: url(https://drscdn.500px.org/photo/242445739/m%3D900/v2?sig=a44ed4029959842d491a8b6d1020282c3220f62b2434480648a9fa6549ad942c) no-repeat center fixed;
+    background-size: cover;
+}
+
+
+/* INÍCIO HOME*/
+
+
+
+.cabeçalho{
+    display: flex;
+    background-color: rgb(207, 192, 192);
+}
+
+img{
+    width:250px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 18%;
+}
+
+.menu {
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    margin-top: 1%;
+}
+
+.menu li {
+    display:flex;
+    justify-content: center
+    top: 100%;
+    margin:2%;
+}
+
+.inicio a {
+    color: purple;
+    text-decoration: none;
+}
+
+
+.metodologia a {
+    color: purple;
+    text-decoration: none;
+}
+
+.planos a {
+    color: purple;
+    text-decoration: none;
+}
+
+.cadastro1 a {
+    color: purple;
+    text-decoration: none;
+}
+
+
+.login1 a {
+    color: purple;
+    margin-left: 15px;
+    margin-right: 15px;    
+    text-decoration: none;
+}
+
+.sobre a {
+    color: purple;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.contato a {
+    color: purple;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.home{
+    background-color: transparent;
+    border-radius: 10px ;
+    width: 30% ;
+    align-items: center;
+    box-shadow:10px 10px 20px .1px rgb(170, 138, 154); 
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 55px;
+    font-weight: 600;
+    margin:10% 10% 10% 35%;
+    color:rgb(22, 22, 68);
+}
+
+.home a {
+    border-radius: 15px;
+    font-size: 60%;
+    padding: 2%;
+    cursor: pointer;
+    box-shadow:1px 1px 20px 2px rgb(173, 149, 168); 
+    font-weight: bold;
+    background-color:rgb(228, 225, 226); 
+    border: 1px solid white;
+    transition:background-color .5s;
+    color:purple;
+    text-decoration: none;
+}
+
+.home a:hover{
+    background-color:white;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    justify-content: space-around;
+    font-weight: 600;
+    color:rgb(37, 22, 22);
+    font-size: 150%;
+    background-color: rgb(207, 192, 192);
+}
+
+.midia p{
+    font-size: 60%;
+    margin-top: 1%;
+}
+
+
+.midia ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.midia li{
+    padding-top: 10px;
+    padding-left:50px;
+    height: 52px;
+    line-height: 2px;  
+}
+
+
+.facebook a{
+    color:blue;
+    margin-left: 700px;
+    margin-right: 2px;
+
+}
+
+.youtube a{
+    color: red;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.linkedin a{
+    color:blue;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.whatsapp a{
+    color:green;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.email a{
+    color: black;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.email{
+    color:gray;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+/*FIM DO HOME*/
+
+
+
+
+
+
+
+/*INÍCIO DA METODOLOGIA*/
+
+
+
+
+.metodo{
+    background-color:rgb(240, 229, 237);
+    font-size: 150%;
+    color: rgb(90, 22, 50);
+    font-weight: 600;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 2%;
+}
+
+
+
+
+
+/*FIM DA METODOLOGIA*/
+
+
+
+
+
+
+/*INÍCIO DO CADASTRO*/
+
+
+
+
+
+
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    flex: 2 0 auto;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(5, 29, 12);
+    padding: 1%;
+}
+
+
+
+/* FIM DA PRIMEIRA PÁGINA*/
+
+/*
+
+.login {
+    background-color:rgba(160, 231, 219, 0.7);
+    border-radius: 50px ;
+    width: 10% ;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    padding-bottom: 1%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+}
+
+.login a {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+.login a:hover {
+    background-color: #bff1ed;
+    transition:background-color 1s;
+}
+
+#acessar{
+    font-size: 150%;
+    color: rgb(11, 12, 68);
+}
+
+
+
+/*FIM DO PRIMEIRO CONTAINER DA SEGUNDA PÁGINA*/
+
+/*
+.second-column-two{
+    margin-top: 3%;
+    position: absolute;
+    flex: 2 0 auto;
+    background-color: #a9f1e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(116, 221, 169, 0.7), 0 6px 10px 0 rgba(118, 223, 191, 0.25);
+    padding: 2%;
+    left: 35%;
+    right: 35%;
+}
+
+.second-column-two h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(5, 29, 12);
+    padding: 1%;
+    text-align: center;
+}
+
+.second-column-two ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.second-column-two li{
+    border: 1px solid #45a0ac;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5%;
+}
+
+.second-column-two a {
+    color: #2316ce;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.second-column-two li:hover {
+    background-color: rgb(255, 255, 255);
+    transition:background-color .5s;
+}
+
+.second-column-two p {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(16, 6, 58);
+    margin: 5%;
+}
+
+.second-column-two form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+}
+
+.second-column-two input{
+    border-radius: 7px;
+    padding-left: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 40px;
+}
+
+.form a{
+    font-size: 80%;
+}
+
+.label-input {
+    background-color:rgb(255, 255, 255) ;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+.second-column-two label{
+    font-size: 100%;
+    text-align: initial;
+}
+
+.second-column-two button {
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 70%;
+    padding: 2% 4%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 3%;
+    transition:background-color .5s;
+}
+
+.second-column-two button:hover{
+    background-color: rgb(0, 0, 0);
+    background-color: #43b1a8;
+}
+
+
+
+@media screen and (max-width: 360px){
+
+    .first-content,
+    .login,
+    .second-column{
+        width: 90%;
+        height: auto;
+    }
+}
