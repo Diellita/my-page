@@ -39,8 +39,7 @@ img{
 
 .menu li {
     display:flex;
-    justify-content: center
-    top: 100%;
+    justify-content: center;
     margin:2%;
 }
 
@@ -92,17 +91,17 @@ img{
     border-radius: 10px ;
     width: 30% ;
     align-items: center;
-    box-shadow:10px 10px 20px .1px rgb(170, 138, 154); 
+    box-shadow:1px 1px 100px 1px rgb(170, 138, 154); 
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 3.5%;
+    padding-bottom: 3.7%;
     font-size: 55px;
     font-weight: 600;
     margin:10% 10% 10% 35%;
     color:rgb(22, 22, 68);
 }
 
-.home a {
+#agende {
     border-radius: 15px;
     font-size: 60%;
     padding: 2%;
@@ -122,7 +121,6 @@ img{
 
 footer{
     display: flex;
-    position: absolute;
     bottom: 0px;
     width: 100%;
     justify-content: space-around;
@@ -208,21 +206,90 @@ footer{
 
 .metodo{
     background-color:rgb(240, 229, 237);
-    font-size: 150%;
+    font-size: 230%;
     color: rgb(90, 22, 50);
     font-weight: 600;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     padding: 2%;
+    text-align: justify;
+    text-indent: 7%;
+}
+
+
+/*FIM DA METODOLOGIA*/
+
+
+
+
+
+
+
+/*INÍCIO DO PLANOS*/
+
+.planos1{
+    margin:5%;
+    background-color:transparent;
+    margin-left: 10%;
+    display: flex;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 9%;
+}
+
+.plano-individual{
+    color: white;
+    margin: 2%;
+    background-color:rgb(85, 17, 70);
+    border-radius: 10%;
+    font-size: 130%;
+    padding: 3%;
+}
+
+
+.plano-em-dupla{
+    color: white;
+    margin: 2%;
+    background-color:rgb(85, 17, 70);
+    border-radius: 10%;
+    font-size: 130%;
+    padding: 3%;
+}
+
+.plano-em-grupo{
+    color: white;
+    margin: 2%;
+    background-color:rgb(85, 17, 70);
+    border-radius: 10%;
+    font-size: 130%;
+    padding: 3%;
+}
+
+.plano-virtual{
+    color: white;
+    margin: 2%;
+    background-color:rgb(85, 17, 70);
+    border-radius: 10%;
+    font-size: 130%;
+    padding: 3%;
 }
 
 
 
 
 
-/*FIM DA METODOLOGIA*/
+
+
+
+
+
+
+/*FIM DO PLANOS*/
+
+
+
 
 
 
