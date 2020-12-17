@@ -1,492 +1,460 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    background-color: #dc3545;
+}
+
 body {
     font-family: 'Tajawal', sans-serif;
 }
 
-html {
-    background: url(https://drscdn.500px.org/photo/242445739/m%3D900/v2?sig=a44ed4029959842d491a8b6d1020282c3220f62b2434480648a9fa6549ad942c) no-repeat center fixed;
+.container_p {
+    background: url(fundo.jpg)no-repeat center fixed;
     background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
 }
 
+/*CABEÇALHO*/
 
-/* INÍCIO HOME*/
-
-
-
-.cabeçalho{
-    display: flex;
-    background-color: rgb(207, 192, 192);
-}
-
-img{
-    width:250px;
+.logo {
+    width: 170px;
+    height: 80px;
     background-size: cover;
     border-radius: 15px;
-    margin-right: 18%;
+    margin-right: 3%;
 }
 
-.menu {
+.navbar-nav {
+    font-size: 25px;
     font-weight: 600;
-    font-size: 30px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+/*endCABEÇALHO*/
+
+/*FOOTER*/
+
+footer {
     display: flex;
-    margin-top: 1%;
-}
-
-.menu li {
-    display:flex;
-    justify-content: center;
-    margin:2%;
-}
-
-.inicio a {
-    color: purple;
-    text-decoration: none;
-}
-
-
-.metodologia a {
-    color: purple;
-    text-decoration: none;
-}
-
-.planos a {
-    color: purple;
-    text-decoration: none;
-}
-
-.cadastro1 a {
-    color: purple;
-    text-decoration: none;
-}
-
-
-.login1 a {
-    color: purple;
-    margin-left: 15px;
-    margin-right: 15px;    
-    text-decoration: none;
-}
-
-.sobre a {
-    color: purple;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-decoration: none;
-}
-
-.contato a {
-    color: purple;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-decoration: none;
-}
-
-.home{
-    background-color: transparent;
-    border-radius: 10px ;
-    width: 30% ;
-    align-items: center;
-    box-shadow:1px 1px 100px 1px rgb(170, 138, 154); 
-    text-align: center;
-    padding-top: 3.5%;
-    padding-bottom: 3.7%;
-    font-size: 55px;
+    justify-content: space-around;
+    background-color: #dc3545;
+    color: black;
     font-weight: 600;
-    margin:10% 10% 10% 35%;
-    color:rgb(22, 22, 68);
+    margin: auto;
+    width: auto;
+    height: 60px;
+}
+
+.midia {
+    font-size: 35px;
+    display: contents;
+}
+
+.facebook {
+    color: blue;
+    padding-left: 5%;
+}
+
+.facebook:hover {
+    color: deepskyblue;
+}
+
+.youtube {
+    color: red;
+    padding-left: 5%;
+}
+
+.youtube:hover {
+    color: black;
+}
+
+.linkedin {
+    color: rgba(4, 59, 131, 0.897);
+    padding-left: 5%;
+}
+
+.linkedin:hover {
+    color: aqua;
+}
+
+.whatsapp {
+    color: lime;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.whatsapp:hover {
+    color: green;
+}
+
+.email_i i {
+    color: rgb(187, 179, 179);
+    padding-left: 25%;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 15px;
+}
+
+.email_i i:hover {
+    color: white;
+}
+
+.email_p {
+    color: rgb(187, 179, 179);
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+.midia p, #cref {
+    font-size: 20px;
+    color: white;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+.midia p:hover, #cref:hover {
+    color: yellow;
+}
+
+/*endFOOTER*/
+
+/*HOME*/
+
+.home {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 30%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 0.5px 0.5px 20px 0.5px#5a1632;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 11%;
+    margin-bottom: 11%;
+    font-weight: bold;
+    color: #5a1632;
 }
 
 #agende {
     border-radius: 15px;
-    font-size: 60%;
-    padding: 2%;
+    font-size: 50%;
+    padding: 4%;
     cursor: pointer;
-    box-shadow:1px 1px 20px 2px rgb(173, 149, 168); 
+    box-shadow: 1px 1px 20px 2px rgb(173, 149, 168);
     font-weight: bold;
-    background-color:rgb(228, 225, 226); 
+    background-color: rgb(228, 225, 226);
     border: 1px solid white;
-    transition:background-color .5s;
-    color:purple;
+    color: #5a1632;
     text-decoration: none;
+    margin-bottom: 5%;
 }
 
-.home a:hover{
-    background-color:white;
+#agende:hover {
+    background-color: #dc3545;
+    color: rgb(228, 225, 226);
+    transition: 0.5s;
 }
 
-footer{
-    display: flex;
-    bottom: 0px;
-    width: 100%;
-    justify-content: space-around;
-    font-weight: 600;
-    color:rgb(37, 22, 22);
-    font-size: 150%;
-    background-color: rgb(207, 192, 192);
-}
-
-.midia p{
-    font-size: 60%;
-    margin-top: 1%;
-}
-
-
-.midia ul{
-    display: flex;
-    list-style-type: none;
-}
-
-.midia li{
-    padding-top: 10px;
-    padding-left:50px;
-    height: 52px;
-    line-height: 2px;  
-}
-
-
-.facebook a{
-    color:blue;
-    margin-left: 700px;
-    margin-right: 2px;
-
-}
-
-.youtube a{
-    color: red;
-    margin-left: 10px;
-    margin-right: 2px;
-}
-
-.linkedin a{
-    color:blue;
-    margin-left: 10px;
-    margin-right: 2px;
-}
-
-.whatsapp a{
-    color:green;
-    margin-left: 10px;
-    margin-right: 2px;
-}
-
-.email a{
-    color: black;
-    margin-left: 10px;
-    margin-right: 2px;
-}
-
-.email{
-    color:gray;
-    margin-left: 10px;
-}
-
-
-
-
-
-
-
-/*FIM DO HOME*/
-
-
-
-
-
-
+/*endHOME*/
 
 /*INÍCIO DA METODOLOGIA*/
 
-
-
-
-.metodo{
-    background-color:rgb(240, 229, 237);
-    font-size: 230%;
-    color: rgb(90, 22, 50);
-    font-weight: 600;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    padding: 2%;
+.metodo {
+    font-size: 30px;
     text-align: justify;
     text-indent: 7%;
 }
 
+.titulo {
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: bolder;
+}
 
 /*FIM DA METODOLOGIA*/
 
-
-
-
-
-
-
 /*INÍCIO DO PLANOS*/
 
-.planos1{
-    margin:5%;
-    background-color:transparent;
-    margin-left: 10%;
+.planos1 {
+    background-color: transparent;
     display: flex;
     text-align: center;
-    padding-top: 4%;
-    margin-bottom: 9%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
-.plano-individual{
-    color: white;
-    margin: 2%;
-    background-color:rgb(85, 17, 70);
-    border-radius: 10%;
-    font-size: 130%;
+.card {
+    max-width: 280px;
+}
+
+.card-body {
+    color: #5a1632;
+    background-color: #f0e5ed;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+#btn_card {
+    text-decoration: none;
+}
+
+#btn_card:hover {
+    background-color: white;
     padding: 3%;
+    border-radius: 15px;
 }
 
-
-.plano-em-dupla{
-    color: white;
-    margin: 2%;
-    background-color:rgb(85, 17, 70);
-    border-radius: 10%;
-    font-size: 130%;
-    padding: 3%;
-}
-
-.plano-em-grupo{
-    color: white;
-    margin: 2%;
-    background-color:rgb(85, 17, 70);
-    border-radius: 10%;
-    font-size: 130%;
-    padding: 3%;
-}
-
-.plano-virtual{
-    color: white;
-    margin: 2%;
-    background-color:rgb(85, 17, 70);
-    border-radius: 10%;
-    font-size: 130%;
-    padding: 3%;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*FIM DO PLANOS*/
-
-
-
-
-
-
-
-
+/*endPLANOS*/
 
 /*INÍCIO DO CADASTRO*/
 
-
-
-
-
-
-
-.container {
-    display:flex;
+.container_cad, .log {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.cadastro {
-    flex: 2 0 auto;
-    background-color:transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cadastro h2 {
-    font-size: 35px;
-    font-weight: bold;
-    text-transform: capitalize;
-    color: rgb(5, 29, 12);
-    padding: 1%;
-}
-
-
-
-/* FIM DA PRIMEIRA PÁGINA*/
-
-/*
-
-.login {
-    background-color:rgba(160, 231, 219, 0.7);
-    border-radius: 50px ;
-    width: 10% ;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
-    padding-bottom: 1%;
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-top: 5%;
-}
-
-.login a {
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 5%;
-    text-decoration: none;
-}
-.login a:hover {
-    background-color: #bff1ed;
-    transition:background-color 1s;
-}
-
-#acessar{
-    font-size: 150%;
-    color: rgb(11, 12, 68);
-}
-
-
-
-/*FIM DO PRIMEIRO CONTAINER DA SEGUNDA PÁGINA*/
-
-/*
-.second-column-two{
-    margin-top: 3%;
-    position: absolute;
-    flex: 2 0 auto;
-    background-color: #a9f1e7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(116, 221, 169, 0.7), 0 6px 10px 0 rgba(118, 223, 191, 0.25);
-    padding: 2%;
-    left: 35%;
-    right: 35%;
-}
-
-.second-column-two h2{
-    font-size: 35px;
-    font-weight: bold;
-    text-transform: capitalize;
-    color: rgb(5, 29, 12);
-    padding: 1%;
-    text-align: center;
-}
-
-.second-column-two ul {
-    display: flex;
-    list-style-type: none;
-}
-
-.second-column-two li{
-    border: 1px solid #45a0ac;
-    border-radius: 50%;
-    width: 60px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin: 5%;
-}
-
-.second-column-two a {
-    color: #2316ce;
-    font-size: 22px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.second-column-two li:hover {
-    background-color: rgb(255, 255, 255);
-    transition:background-color .5s;
-}
-
-.second-column-two p {
-    font-size: 22px;
-    font-weight: 600;
-    color: rgb(16, 6, 58);
-    margin: 5%;
-}
-
-.second-column-two form {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    height: 100%;
-}
-
-.second-column-two input{
-    border-radius: 7px;
-    padding-left: 5px;
-    border: none;
-    background-color: rgb(255, 255, 255);
-    margin-top: 1.5%;
-    margin-bottom: 2%;
-    width: 90%;
-    height: 40px;
-}
-
-.form a{
-    font-size: 80%;
-}
-
-.label-input {
-    background-color:rgb(255, 255, 255) ;
-    flex-direction: column;
     width: 100%;
-    height: 100%;
-    margin: 2%;
 }
 
-.second-column-two label{
-    font-size: 100%;
-    text-align: initial;
+.met_cad_log {
+    background-color: #f0e5ed;
+    color: #5a1632;
+    padding: 5%;
+    margin: 5%;
 }
 
-.second-column-two button {
-    border-radius: 15px;
-    text-transform: uppercase;
-    font-size: 70%;
-    padding: 2% 4%;
-    cursor: pointer;
-    font-weight: bold;
-    background-color: transparent;
-    border: 1px solid rgb(0, 0, 0);
-    margin-top: 3%;
-    transition:background-color .5s;
+.form-group label, .paragrafo {
+    font-weight: 600;
 }
 
-.second-column-two button:hover{
-    background-color: rgb(0, 0, 0);
-    background-color: #43b1a8;
+.custom-control {
+    background-color: white;
 }
 
+/*endCADASTRO*/
 
+/*SOBRE*/
 
-@media screen and (max-width: 360px){
+.foto {
+    width: 250px;
+    height: 300px;
+    padding: 0.5%;
+    margin-bottom: 4%;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 20px 0.5px#5a1632;
+}
 
-    .first-content,
-    .login,
-    .second-column{
-        width: 90%;
-        height: auto;
+.nome {
+    display: inline;
+    text-align: center;
+    padding: 5%;
+    font-weight: bolder;
+}
+
+/*endSOBRE*/
+
+/*#region Media Query*/
+
+/*Tablet xl*/
+
+@media only screen and (max-width: 993px) and (min-width: 769px) {
+    .logo {
+        width: 150px;
+        height: 70px;
+    }
+    .navbar-nav {
+        font-size: 20px;
+    }
+    .home {
+        width: 40%;
+        font-size: 35px;
+        margin: 17% 30% 17% 30%;
+    }
+    .midia {
+        font-size: 25px;
+    }
+    #cref {
+        font-size: 15px;
+        padding-left: 3%;
+        line-height: 10px;
+    }
+    .midia p {
+        font-size: 15px;
+        padding-left: 3%;
+        line-height: 40px;
+    }
+    .titulo {
+        font-size: 25px;
+    }
+    .planos1 {
+        padding: 5%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .card-title {
+        font-size: 15px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    .foto {
+        width: 150px;
+        height: 200px;
+        padding: 0.5%;
+    }
+    .nome {
+        padding: 3%;
+        font-size: 35px;
     }
 }
+
+/*Tablet*/
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .logo {
+        width: 120px;
+        height: 50px;
+    }
+    .navbar-nav {
+        font-size: 15px;
+    }
+    .home {
+        width: 60%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        font-size: 30px;
+        margin: 23% 20% 23% 20%;
+    }
+    footer {
+        padding-top: 1.5%;
+    }
+    .midia {
+        font-size: 20px;
+    }
+    #cref {
+        font-size: 12px;
+        padding-left: 5%;
+        line-height: 5px;
+    }
+    .midia p {
+        font-size: 12px;
+        padding-left: 5%;
+        line-height: 35px;
+    }
+    .metodo, .titulo {
+        font-size: 20px;
+    }
+    .planos1 {
+        padding: 2%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .card-title {
+        font-size: 13px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    .foto {
+        width: 100px;
+        height: 150px;
+        padding: 0.5%;
+    }
+    .nome {
+        padding: 2%;
+        font-size: 27px;
+    }
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 575px) {
+    .logo {
+        width: 120px;
+        height: 50px;
+    }
+    .navbar-nav {
+        font-size: 15px;
+    }
+    .home {
+        width: 75%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        font-size: 25px;
+        margin: 50% 12% 50% 12%;
+    }
+    footer {
+        padding-top: 1.5%;
+    }
+    .midia {
+        font-size: 15px;
+        padding-left: 1%;
+    }
+    #cref {
+        font-size: 10px;
+        padding-left: 3%;
+        margin-top: -15px;
+        margin-right: 5%;
+    }
+    .midia p {
+        font-size: 12px;
+        padding-left: 4%;
+        line-height: 22px;
+    }
+    .row {
+        max-height: 15px;
+    }
+    .metodo, .titulo {
+        font-size: 17px;
+    }
+    .planos1 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .card-title {
+        font-size: 13px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    .log {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .foto {
+        width: 180px;
+        height: 220px;
+        padding: 0.5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nome {
+        display: inline-block;
+        padding: 2%;
+        font-size: 23px;
+        width: 100%;
+    }
+}
+
+/*endregion*/

@@ -1,13 +1,1 @@
-
-
-window.addEventListener("load", function(event) {
-    // login ();
-    // document.querySelector('#acessar').addEventListener('click', function() {cadastrar()},false);
-});
-
-
-
-
-
-
-
+// Falta criar as validações JavaScript
