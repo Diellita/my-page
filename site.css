@@ -35,7 +35,11 @@ body {
     font-weight: 600;
 }
 
-.navbar a:hover {
+.navbar a:hover, .nav-link{
+    color: #5a1632;
+    border-radius: 15px;
+}
+.dropdown-menu a{
     color: white;
 }
 
