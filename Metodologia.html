@@ -1,81 +1,108 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="site.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="site.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <script type="text/javascript" src="site.js"></script>
-    <script type='text/javascript' src='https://500px.com/embed.js'></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script type="text/javascript" src="site.js"></script>
+  <script type='text/javascript' src='https://500px.com/embed.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <div class="cabeçalho"> 
-            <img src="logo.png" type="text/css">
-                <div class="menu">
-                    <li class = "inicio">
-                        <a href="Home.html"><i class="inicio"> Início</i></a>
-                    <li class = "metodologia">
-                        <a href="Metodologia.html"><i class="metodologia"> Metodologia</i></a>
-                    <li class = "planos">
-                        <a href="Planos.html"><i class="planos"></i>Planos</a>
-                    <li class = "cadastro1">
-                        <a href="Cadastro.html"><i class="cadastro1">Cadastro</i></a>
-                    <li class = "login1">
-                        <a href="Login.html"><i class="login1"></i> Login</a>
-                    <li class = "sobre">
-                        <a href="###"><i class="sobre"></i>Sobre</a>
-                    <li class = "contato">
-                        <a href= "###"><i class="contato">Contato</i></a>
-                </div>
-        </div>
-    </header>
-    <div class = "Metodologia">
-        <div class="metodo">
-            <p> 
-                O princípio básico da individualidade biológica é aquele que diz que não há seres completamente iguais.
-
-                Desta forma, cada pessoa tem seus objetivos, necessidades e limitações específicas.
-            </p>
-            <p>
-                Portanto, o mesmo método de treino planejado para uma pessoa, pode não funcionar tão bem ou até fazer mal para outra.
-
-                Além disto, o sedentarismo é a 4ª principal causa de morte no mundo, com 5,3 milhões de pessoas morrendo por ano.
-                
-                E a maioria das pessoas estão sedentárias por "falta de tempo".
-            </p>
-            <p> 
-                Diante disto, desenvolvo uma aula adaptada a necessidade de cada aluno,
-                
-                levando em consideração os objetivos, necessidades, limitações, vontade pessoal do aluno e disponibilidade.
-            </p>    
-            <p>    
-                O plano de treinos é elaborado utilizando o que há de mais recente,
-                
-                com elementos da musculação, calistenia, treinamento funcional, e metodologias como o Tábata, Circuitos e etc.
-                
-                Assim, os objetivos serão alcançados da maneira mais eficiente e segura possível.
-            </p>
-            </p>
-        </div>
+  <div class="container_p">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <img class="logo" src="logo.png" type="text/css">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Metodologia.html">Metodologia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Planos.html">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Cadastro.html">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Sobre.html">Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container_cad">
+      <div class="met_cad_log">
+        <h2 class="titulo">METODOLOGIA</h2>
+        <p class="paragrafo metodo">
+          O princípio básico da individualidade biológica é aquele que diz que não há seres completamente iguais.
+          Desta forma, cada pessoa tem seus objetivos, necessidades e limitações específicas.
+        </p>
+        <p class="paragrafo metodo">
+          Portanto, o mesmo método de treino planejado para uma pessoa, pode não funcionar tão bem ou até fazer mal para
+          outra.
+          Além disto, o sedentarismo é a 4ª principal causa de morte no mundo, com 5,3 milhões de pessoas morrendo por
+          ano.
+          E a maioria das pessoas estão sedentárias por "falta de tempo".
+        </p>
+        <p class="paragrafo metodo">
+          Diante disto, desenvolvo uma aula adaptada a necessidade de cada aluno,
+          levando em consideração os objetivos, necessidades, limitações, vontade pessoal do aluno e disponibilidade.
+        </p>
+        <p class="paragrafo metodo">
+          O plano de treinos é elaborado utilizando o que há de mais recente,
+          com elementos da musculação, calistenia, treinamento funcional, e metodologias como o Tábata, Circuitos e etc.
+          Assim, os objetivos serão alcançados da maneira mais eficiente e segura possível.
+        </p>
+        </p>
+      </div>
     </div>
-    <footer>
+  </div>
+  <footer>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="row">
         <div class="midia">
-            <ul class="list-social-midia">
-                <p>CREF 164013-G/SP</p>
-                <li class = "facebook">
-                    <a href=https://www.facebook.com/greendielle target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                <li class = "youtube">
-                    <a href=https://www.youtube.com/ target="_blank"><i class="fab fa-youtube"></i></a>
-                <li class = "linkedin">
-                    <a href=https://www.linkedin.com/in/dielle-oliveira-ribeiro-6aa822199/ target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li class = "whatsapp">
-                    <a href=https://api.whatsapp.com/send?phone=5511932009663 target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                <li class = "email">
-                    <a class="far fa-envelope"></a> prof.dielle@gmail.com</li>    
-            </ul>
+          <a class="facebook" href="https://www.facebook.com/greendielle" target="_blank"><i
+              class="fab fa-facebook-square"></i></a>
+          <a class="youtube" href=https://www.youtube.com/ target="_blank"><i class="fab fa-youtube"></i></a>
+          <a class="linkedin" href="https://www.linkedin.com/in/dielle-oliveira-ribeiro-6aa822199/" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a class="whatsapp"
+            href="https://whats.link/httpsapiwhatsappcomsendphone5511932009663textolc3a120dielle2c20acabei20de20vizualizar20seu20github"
+            target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a class="email_i"><i class="far fa-envelope"></i></a>
+          <p class="email_p">prof.dielle@gmail.com</p>
+          <p id="cref" class="footer-copyright text-center py-3"> CREF 164013-G/SP</p>
         </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
+  </div>
 </body>
+
 </html>
