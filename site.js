@@ -1,1 +1,1 @@
-// Falta criar as validações JavaScript
+// Criar eventos e validações JavaScript
